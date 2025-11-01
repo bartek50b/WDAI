@@ -1,16 +1,42 @@
 html {
-      background-color: #DDBEAA;
-      height: 100vh;
+  background-color: #ddbeaa;
+  height: 100vh;
 }
 
 body {
-      height: 100vh;
-      margin: 0;
+  height: 100vh;
+  margin: 0;
 }
 
 .main-container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+.subheader {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.kwadrat {
+  height: 100px;
+  width: 100px;
+  margin: 3px;
+}
+
+.kwadrat-container {
+  display: flex;
+  padding: 3px;
+  margin: 3px;
 }
