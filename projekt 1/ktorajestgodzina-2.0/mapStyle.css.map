@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "mapStyle.scss"
+  ],
+  "names": [],
+  "mappings": "AAIA;EACE,QAHa;EAIb;EACA;EACA;EACA,MATW;EAUX;;AACA;EACE;;AAEF;EACE;;AAGF;EACE;;;AAGJ;EACE;EACA;EACA;EACA;EACA;;;AAEF;EACE,MA9BW;EA+BX",
+  "file": "mapStyle.css"
+}
