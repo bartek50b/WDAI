@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stoper</title>
+  </head>
+  <body>
+    <h1>Produkty z API</h1>
+
+    <label>
+      Filtruj
+      <input type="text" id="filter" />
+    </label>
+
+    <label>
+      Sortuj:
+      <select id="sort">
+        <option value="default">oryginalna kolejność</option>
+        <option value="asc">rosnąco</option>
+        <option value="desc">malejąco</option>
+      </select>
+    </label>
+
+    <table>
+      <tr>
+        <th>Zdjęcie</th>
+        <th>Tytuł</th>
+        <th>Opis</th>
+      </tr>
+      <tbody id="products-tbody"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

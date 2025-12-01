@@ -7,10 +7,47 @@
   </head>
   <body>
     <form>
-      <label for="minPasswordLenght">Minimalna długość hasła:</label>
-      <input name="minPasswordLenght" type="text" />
-      <label for="maxPasswordLenght">Maksymalna długość hasła:</label>
-      <input name="maxPasswordLenght" type="text" />
+      <label for="minPasswordLenght">
+        Minimalna długość hasła:
+        <input
+          name="minPasswordLenght"
+          id="minPasswordLenght"
+          type="text"
+          required
+        />
+      </label>
+
+      <br />
+      <label for="maxPasswordLenght">
+        Maksymalna długość hasła:
+        <input
+          name="maxPasswordLenght"
+          id="maxPasswordLenght"
+          type="text"
+          required
+        />
+      </label>
+
+      <br />
+      <label type="checkbox" for="includeUppercase">
+        Czy hasło ma zawierać wielkie litery?
+        <input name="includeUppercase" id="includeUppercase" type="checkbox" />
+      </label>
+
+      <br />
+      <label for="includeSpecialCharacters">
+        Czy hasło ma zawierać znaki specjalne?
+        <input
+          name="includeSpecialCharacters"
+          id="includeSpecialCharacters"
+          type="checkbox"
+        />
+      </label>
+
+      <br />
+      <button id="generate-password-button">Wygeneruj hasło</button>
     </form>
+
+    <script src="script.js"></script>
   </body>
 </html>
