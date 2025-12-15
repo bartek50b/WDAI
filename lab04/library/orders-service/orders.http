@@ -1,0 +1,22 @@
+### Dodaj zamówienie
+POST http://localhost:3002/api/orders
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ4NzE1NCwiZXhwIjoxNzY1NDk0MzU0fQ.crfloHWY8Pj72nGa23ho-oqfagRwDAzNG3FtNss85vQ
+
+{
+  "userId": 1,
+  "bookId": 3,
+  "quantity": 2
+}
+
+### Zamówienia użytkownika
+GET http://localhost:3002/api/orders/1
+
+### Edytuj zamówienie
+PATCH http://localhost:3002/api/orders/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ4NzE1NCwiZXhwIjoxNzY1NDk0MzU0fQ.crfloHWY8Pj72nGa23ho-oqfagRwDAzNG3FtNss85vQ
+
+{
+  "quantity": 99
+}

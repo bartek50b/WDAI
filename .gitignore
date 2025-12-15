@@ -1,1 +1,5 @@
 lab01.zip
+node_modules/
+.env
+*.log
+*.db

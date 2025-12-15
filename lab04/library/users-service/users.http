@@ -1,0 +1,17 @@
+### Rejestracja
+POST http://localhost:3003/api/register
+Content-Type: application/json
+
+{
+  "email": "maciek@test.pl",
+  "password": "haslo123"
+}
+
+### Logowanie
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+  "email": "maciek@test.pl",
+  "password": "haslo123"
+}

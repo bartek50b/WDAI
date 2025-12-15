@@ -1,0 +1,27 @@
+### Lista wszystkich książek
+GET http://localhost:3001/api/books
+Accept: application/json
+
+### Pobierz jedną książkę
+GET http://localhost:3001/api/books/10
+Accept: application/json
+
+
+### Usuń książkę
+DELETE http://localhost:3001/api/books/4
+
+### Dodaj książkę
+POST http://localhost:3001/api/books
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ4NzE1NCwiZXhwIjoxNzY1NDk0MzU0fQ.crfloHWY8Pj72nGa23ho-oqfagRwDAzNG3FtNss85vQ
+
+{
+  "title": "W pustyni i w puszczy",
+  "author": "Henryk Sienkiewicz",
+  "year": 1911
+}
+
+### Usuń książkę
+DELETE http://localhost:3001/api/books/1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc2NTQ4NzE1NCwiZXhwIjoxNzY1NDk0MzU0fQ.crfloHWY8Pj72nGa23ho-oqfagRwDAzNG3FtNss85vQ
