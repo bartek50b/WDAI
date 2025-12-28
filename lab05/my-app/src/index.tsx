@@ -1,0 +1,29 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Welcome from "./Welcome";
+import reportWebVitals from "./reportWebVitals";
+import Koszyk from "./components/koszyk/koszyk";
+import NowyKoszyk from "./components/koszyk/nowyKoszyk";
+import Licznik from "./components/liczniki/licznik";
+import NowyLicznik from "./components/liczniki/nowyLicznik";
+import Formularz from "./components/formularze/formularz";
+import Haslo from "./components/formularze/haslo";
+import Logowanie from "./components/formularze/logowanie";
+import Ternaty from "./components/inne/ternaty";
+import Aktualizacja from "./components/inne/aktualizacja";
+import Studenci from "./components/studenci/studenci";
+const root = ReactDOM.createRoot(
+  document.getElementById("root") as HTMLElement
+);
+root.render(
+  <React.StrictMode>
+    <Studenci></Studenci>
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
