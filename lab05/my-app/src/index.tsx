@@ -6,7 +6,7 @@ import Welcome from "./Welcome";
 import reportWebVitals from "./reportWebVitals";
 import Koszyk from "./components/koszyk/koszyk";
 import NowyKoszyk from "./components/koszyk/nowyKoszyk";
-import Licznik from "./components/liczniki/licznik";
+import Licznik from "./components/efekty/licznik";
 import NowyLicznik from "./components/liczniki/nowyLicznik";
 import Formularz from "./components/formularze/formularz";
 import Haslo from "./components/formularze/haslo";
@@ -14,12 +14,15 @@ import Logowanie from "./components/formularze/logowanie";
 import Ternaty from "./components/inne/ternaty";
 import Aktualizacja from "./components/inne/aktualizacja";
 import Studenci from "./components/studenci/studenci";
+import StudentManager from "./components/studenci/studentManager";
+import Tytul from "./components/efekty/tytul";
+import Odliczanie from "./components/efekty/odliczanie";
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Studenci></Studenci>
+    <Odliczanie></Odliczanie>
   </React.StrictMode>
 );
 
