@@ -1,0 +1,23 @@
+.comment {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  background: #f9f9f9;
+  width: 250px;
+}
+
+.comment-header {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.comment-body {
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+.comment-like {
+  border: none;
+  background: none;
+}

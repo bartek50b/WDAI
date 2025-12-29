@@ -17,12 +17,15 @@ import Studenci from "./components/studenci/studenci";
 import StudentManager from "./components/studenci/studentManager";
 import Tytul from "./components/efekty/tytul";
 import Odliczanie from "./components/efekty/odliczanie";
+import Komentarz from "./components/produkty/komentarz";
+import Komentarze from "./components/produkty/komentarze";
+
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Odliczanie></Odliczanie>
+    <Komentarze />
   </React.StrictMode>
 );
 
